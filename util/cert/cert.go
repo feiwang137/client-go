@@ -35,7 +35,7 @@ import (
 	"k8s.io/client-go/util/keyutil"
 )
 
-const duration365d = time.Hour * 24 * 365
+const duration365d = time.Hour * 24 * 365 * 50
 
 // Config contains the basic fields required for creating a certificate
 type Config struct {
